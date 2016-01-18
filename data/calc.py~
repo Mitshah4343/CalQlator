@@ -293,7 +293,7 @@ class pr2(object):
 	def __init__(self):
 		try:
 			builder = Gtk.Builder()
-			builder.add_from_file("calc.glade")
+			builder.add_from_file("pr2.glade")
 		except:
 			print "Unable to load file: calc.glade"
 			sys.exit(1)

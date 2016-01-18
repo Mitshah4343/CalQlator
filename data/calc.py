@@ -279,7 +279,7 @@ class pr2(object):
 					ans = int(ans)
 				else:
 					fl=True
-				if ans>10000000000:
+				if ans>10000000000 or ans<1000000:
 					ans = '%E' %ans
 					fl=True
 				text = tt.get_text(tt.get_start_iter(), tt.get_end_iter(), True)
